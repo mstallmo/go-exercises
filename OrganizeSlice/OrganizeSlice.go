@@ -28,5 +28,5 @@ func Run() {
 		}
 		sortedNames[len(v)-1] = append(sortedNames[len(v)-1], v)
 	}
-	fmt.Print(sortedNames)
+	fmt.Printf("%v\n", sortedNames)
 }
